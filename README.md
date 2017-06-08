@@ -6,6 +6,9 @@ With 3 Cpps
 * `main.cpp` is Calibration main Cpp
 * `drawcharucoboard.cpp`  as the name, generate the ChArucoBoard
 * `testvideocapture.cpp` test the video file is Recognized by Opencv3
+* `mutexvideocapture.cpp` base on `testvideocapture.cpp`, but let `VideoCapture.read()` run in another thread, which can increase the video FPS.  reference: [increasing-webcam-fps-with-python-and-opencv](http://www.pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/)
+
+
 
 you can modify the `Calibration.pro` to Build and Run.
 
