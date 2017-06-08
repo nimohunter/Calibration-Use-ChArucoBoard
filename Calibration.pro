@@ -17,9 +17,10 @@ LIBS += -L/usr/local/lib/ -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lop
 TEMPLATE = app
 
 SOURCES += \
-    main.cpp \
+#    main.cpp \
 #    drawcharucoboard.cpp
-#    testvideocapture.cpp
+#    testvideocapture.cpp \
+    mutexvideocapture.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
